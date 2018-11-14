@@ -1,5 +1,5 @@
 require 'danger'
-require 'danger/suggester/file'
+require "danger/suggester/file"
 require 'danger/suggester/suggestion'
 require 'git_diff'
 
@@ -70,4 +70,5 @@ module Danger
       end
     end
   end
+
 end
